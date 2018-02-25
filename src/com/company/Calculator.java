@@ -77,21 +77,22 @@ public class Calculator {
 
     }
 
-    public void printOptions(){
-        System.out.println("\nPress");
-        System.out.println("0: To quit the application");
-        System.out.println("1: To add 2 numbers");
-        System.out.println("2: To subtract  number from another number");
-        System.out.println("3: To multiply 2 numbers");
-        System.out.println("4: To divide a number from another number");
-        System.out.println("5: To square a number(multiply it by itself)");
-        System.out.println("6: To cube a number(multiply it by itself 2 times)");
-        System.out.println("7: To power the first number by the second(multiply itself by the other number's times)");
-        System.out.println("8: To print the list of options");
+    public void sqr(){
+        System.out.println("Enter the value:");
+      double firstValue = scanner.nextDouble();
+     double firstValue1 = Math.sqrt(firstValue);
+        System.out.println("The square root of " + firstValue + " is " + firstValue1);
 
     }
 
+    public void cubeRoot(){
+        System.out.println("Enter the value");
+        double firstValue = scanner.nextDouble();
+        double firstValue1 = Math.cbrt(firstValue);
+        System.out.println("The cube root of " + firstValue + " is " + firstValue1);
 
+
+    }
 
 
 }
