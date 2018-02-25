@@ -1,6 +1,6 @@
 package com.company;
 
-
+//Calculator
 
 
 import java.util.Scanner;
@@ -19,7 +19,7 @@ public class Main {
            System.out.println("Enter your action(No decimals):");
            action = scanner.nextInt();
        }catch (RuntimeException ex){
-              System.out.println("You entered a letter,word or sentence.Please restart the program");
+              System.out.println("You entered a letter,word or sentence.Please restart the program because the program goes adding forever");
 
         }
 
